@@ -1,0 +1,36 @@
+body {
+    
+    border: 2px solid blue;
+  }
+  nav {
+    text-align: center;
+    background-color: steelblue;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  a {
+    color: white;
+    margin: 40px;border: 2px solid blue;
+  }
+  h1 {
+    color: steelblue;
+    border: 2px solid blue;
+  }
+  img {
+    width: 80%;
+    border: 4px solid steelblue;
+    border: 2px solid blue;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid blue;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+    border: 2px solid blue;
+  }
+  
