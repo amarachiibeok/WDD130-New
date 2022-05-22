@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rock+Salt&display=swap');
 #content {
     max-width: 1600px;
     text-align: center;
@@ -13,6 +14,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding-top: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
      text-align: center
@@ -28,6 +30,10 @@ main section {
 }
 body {
     background-color: #fcfbfb;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color:#a8dcd9
@@ -38,6 +44,9 @@ nav a:hover {
 }
 .home-title {
     color: #e2a3c7;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #60435F;
@@ -46,6 +55,10 @@ h4 {
     background-color: #60435F;
     color: white; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{    
     background-color: black;
@@ -56,6 +69,8 @@ h4 {
 }
 .msg p {
     color: blueviolet;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: black
@@ -72,9 +87,12 @@ footer a:hover {
 }
 .msg{
     background-color: #a8dcd9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #e2a3c7;
+    padding: 25px 50px;
 }
 .logo {
     width: 80px;
@@ -84,4 +102,27 @@ footer{
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+h2{
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+    margin-top: 200px;
+}
+rivers-card, camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }

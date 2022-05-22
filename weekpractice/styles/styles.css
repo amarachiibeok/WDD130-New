@@ -1,20 +1,23 @@
 body {
     
     border: 2px solid blue;
+    margin: 0;
   }
   nav {
     text-align: center;
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
     border: 2px solid blue;
   }
   a {
     color: white;
     margin: 40px;border: 2px solid blue;
+    padding: 25px;
   }
   h1 {
     color: steelblue;
     border: 2px solid blue;
+    margin: 50px 0;
   }
   img {
     width: 80%;
@@ -27,10 +30,12 @@ body {
     padding: 10px;
     width: 100%;
     border: 2px solid blue;
+    margin: 50px auto;
   }
   footer {
     background-color: steelblue;
     color: white;
     border: 2px solid blue;
+    padding: 25px;
   }
   
