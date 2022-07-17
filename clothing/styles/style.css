@@ -44,14 +44,13 @@ nav a:hover {
     grid-row: 1/2;  
     width: 1330px;
     height: 450px;
+    margin-top: 15px;
 }
 #hero-msg {
     grid-column: 3/4;
     grid-row: 1/2;
     width: 420px;
     height: 450px;
-    font-size:x-large;
-    font-family: Roboto, Helvetica, sans-serif;
     color:  orangered; 
     text-align: right;
 }
@@ -144,6 +143,117 @@ nav a:hover {
     margin-left: 25px;
     font-weight: bolder;
 }
+/* page three */
+#about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1600px;
+    max-height: 500px;
+    background-color: #a8dcd9;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#african-box {
+    margin-top: 25px;
+    width: 400px;
+    height: 400px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 25px;
+}
+#african-img {
+    width: 80%;
+    height: 80%;
+    margin-top: 55px;
+    box-shadow: 5px 5px 10px black;
+}
+#picture-box {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    width: 800px;
+    margin-top: 100px;
+}
+#picture-msg {
+    width: 100%;
+    text-align: right;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+#contact-msg {
+    width: 100%;
+    text-align: right;
+    font-family: "Roboto", "Helvetica", "sans-serif";
+}
+#faq-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    max-height: 600px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+    align-content: center;
+    background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+.faq-msg {
+    max-width: 1000px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 800;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #60435F;
+}
+.answer {
+    max-width: 1000px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 100;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+#black-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1000px;
+    max-height: 400px;
+    align-content: center;
+    margin-top: -180px;
+    margin-bottom: 450px;
+}
+#black-men {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 500px;
+    height: 400px;
+    margin-left: -150px;
+    margin-right: 150px;
+}
+#men-img {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    width: 400px;
+    height: 400px;
+    margin-right: -100px;
+    margin-left: 100px;
+}
+#black-img {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 1000px;
+    height: 500px;
+    margin-top:300px;
+    text-align: right;
+    margin-right: 35px; 
+    box-shadow: 5px 5px 10px black;
+}
+#img-title h1{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 500px;
+    height: 30px;
+    text-align: right;
+
+}
 footer {
     background-color: #e2a3c7;
     padding: 25px;
@@ -151,8 +261,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 180px;
 }
-#social {
+.social {
     width: 40px;
     height: 40px;
 }
